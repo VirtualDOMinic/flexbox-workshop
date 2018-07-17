@@ -83,15 +83,22 @@ body {
 }
 
 .fourth-face {
+  flex-direction: row;
   justify-content: space-between;
-  /* align-content: space-between; */
 }
 
-.fourth-face .pip:nth-child(2) {
-  /* align-self: flex-end; */
+.column {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.fifth-face .column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
 
-
+.sixth-face {
+  flex-direction: row;
+  justify-content: space-between;
+}
